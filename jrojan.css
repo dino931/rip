@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    align-items: center;
+
+}
+h1{
+    align-items: center;
+    display: flex;
+    position: absolute;
+    color: black;
+    animation: color 2s infinite linear;
+    margin-left: -100px;
+}
+
+@keyframes color{
+10%{
+    color: cyan;
+}
+50%{
+    color: blueviolet;
+}
+90%{
+    color: rgb(14, 14, 197);
+}
+}
+
+.btn{
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+button{
+    height: 190px;
+    width: 190px;
+    color: rgb(255, 255, 255);
+    border-color: aqua;
+    border-width: 3px;
+    border-radius: 10px;
+    border-radius: none;
+    background-color: black;
+}
+
+button:hover{
+    color: rgb(255, 255, 255);
+    background-color: aqua;
+    animation: 10s linear infinite;
+}
+
+.main{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 2400px;
+    width: 600px;
+    color: black;
+    overflow: hidden;
+}
+
+img{
+    width: 1300px;
+}
+
+p{
+    color: rgb(152, 148, 148);
+}
+
+ul{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: rgb(99, 92, 92);
+}
+
+.im{
+    width: 20px;
+    margin-left: -500px;
+    margin-left: -650px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.n{
+    background-color: black;
+    height: 80px;
+    text-align: center;
+}
+
+
+
